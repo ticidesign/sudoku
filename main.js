@@ -88,37 +88,3 @@ document.addEventListener("keypress", function keypress(e) {
     document.getElementsByClassName("select")[0].innerHTML = "";
   }
 });
-
-// // Check for win
-// function check() {
-//   var total = 0;
-//   for (var i = 1; i <= 9; i++) {
-//     for (var j = i * 9 - 9; j < i * 9; j++) {
-//       if (fields[j].innerHTML !== "") {
-//         total += parseInt(fields[j].innerHTML);
-//       } else {
-//       }
-//     }
-//     for (var k = i; k < 82; k += 9) {
-//       total += parseInt(fields[k - 1].innerHTML);
-//     }
-//   }
-//   if (total - 2 == 45 * 18) {
-//     alert("hooray");
-//   } else {
-//     alert("nooo");
-//   }
-// }
-
-// function solve() {
-//   var array = [1, 2, 3, 4, 6, 7, 8, 9];
-
-//   var missing = 9 - array.length;
-//   var total = 38;
-
-//   for (var i = 0; i < array.length - 1; i++) {
-//     console.log(array[i]);
-//     //var total += array[i];
-//   }
-//   console.log(45 % total);
-// }
